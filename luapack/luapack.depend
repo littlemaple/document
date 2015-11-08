@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1333139133 source:h:\tddownload\srlua.tar\srlua\srlua\srlua.c
+	<windows.h>
+	<errno.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"glue.h"
+	"e:/dev/lua/include/lua.h"
+	"e:/dev/lua/include/lualib.h"
+	"e:/dev/lua/include/lauxlib.h"
+
+1093482412 h:\tddownload\srlua.tar\srlua\srlua\glue.h
+
+1217989812 e:\dev\lua\include\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1219898376 e:\dev\lua\include\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<unistd.h>
+	<io.h>
+	<stdio.h>
+	<stdio.h>
+	<readline/readline.h>
+	<readline/history.h>
+	<assert.h>
+	<math.h>
+	<unistd.h>
+
+1198728144 e:\dev\lua\include\lualib.h
+	"lua.h"
+
+1198728144 e:\dev\lua\include\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1108811658 source:h:\tddownload\srlua.tar\srlua\srlua\glue.c
+	<errno.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"glue.h"
+

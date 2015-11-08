@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="luapack" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="h\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\luapack" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="..\..\..\dev\lua\lib\lua51.lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\luapack" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="..\..\..\dev\lua\include\lauxlib.h" />
+		<Unit filename="..\..\..\dev\lua\include\lua.h" />
+		<Unit filename="..\..\..\dev\lua\include\lualib.h" />
+		<Unit filename="H:\TDDOWNLOAD\srlua.tar\srlua\srlua\glue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="H:\TDDOWNLOAD\srlua.tar\srlua\srlua\glue.h" />
+		<Unit filename="H:\TDDOWNLOAD\srlua.tar\srlua\srlua\srlua.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

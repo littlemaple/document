@@ -1,0 +1,21 @@
+09-29 20:24:58.768: E/AndroidRuntime(27728): FATAL EXCEPTION: main
+09-29 20:24:58.768: E/AndroidRuntime(27728): Process: com.medzone.mcloud, PID: 27728
+09-29 20:24:58.768: E/AndroidRuntime(27728): java.lang.NullPointerException
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at com.medzone.cloud.data.e.d(Unknown Source)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at com.medzone.cloud.data.e.e(Unknown Source)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at com.medzone.cloud.data.e.b(Unknown Source)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at com.medzone.cloud.b.g.b(Unknown Source)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at com.medzone.cloud.b.h.a(Unknown Source)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at com.medzone.cloud.task.BaseGetControllerDataTask.a(Unknown Source)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at com.medzone.framework.task.c.onPostExecute(Unknown Source)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at android.os.AsyncTask.finish(AsyncTask.java:632)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at android.os.AsyncTask.access$600(AsyncTask.java:177)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at android.os.AsyncTask$InternalHandler.handleMessage(AsyncTask.java:645)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at android.os.Looper.loop(Looper.java:212)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at android.app.ActivityThread.main(ActivityThread.java:5151)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at java.lang.reflect.Method.invokeNative(Native Method)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at java.lang.reflect.Method.invoke(Method.java:515)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:827)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:643)
+09-29 20:24:58.768: E/AndroidRuntime(27728): 	at dalvik.system.NativeStart.main(Native Method)
